@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="#F30827"
+        android:text="@string/textView14_name"
+        android:textColor="#FFF"
+        android:textSize="25sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <TextView
+            android:id="@+id/first"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
+            android:background="#31DF42"
+            android:text="@string/textView15_name"
+            android:textColor="#FFF"
+            android:textSize="25sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#3585ED"
+            android:text="@string/textView16_name"
+            android:textColor="#FFF"
+            android:textSize="25sp" />
+
+        <TextView
+            android:layout_marginStart="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#D5A822"
+            android:text="@string/textView17_name"
+            android:textColor="#FFF"
+            android:textSize="25sp" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="#959492"
+        android:text="@string/textView18_name"
+        android:textColor="#FFF"
+        android:textSize="25sp" />
+</RelativeLayout>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/textBox1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/textBox2"
+        android:background="#FF2301"
+        android:paddingStart="40dp"
+        android:paddingEnd="40dp"
+        android:text="@string/textView7_name"
+        android:textColor="#000000"
+        android:textSize="35sp"
+        tools:ignore="RtlSymmetry" />
+
+    <TextView
+        android:id="@+id/textBox2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/textBox3"
+        android:layout_toStartOf="@id/textBox3"
+        android:background="#2A9543"
+        android:paddingStart="40dp"
+        android:paddingEnd="40dp"
+        android:text="@string/textView8_name"
+        android:textColor="#000000"
+        android:textSize="35sp" />
+
+    <TextView
+        android:id="@+id/textBox3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/textBox4"
+        android:layout_toStartOf="@id/textBox4"
+        android:background="#B7AB33"
+        android:paddingStart="40dp"
+        android:paddingEnd="40dp"
+        android:text="@string/textView9_name"
+        android:textColor="#000000"
+        android:textSize="35sp" />
+
+    <TextView
+        android:id="@+id/textBox4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerInParent="true"
+        android:layout_marginEnd="10dp"
+        android:background="#97156F"
+        android:paddingStart="40dp"
+        android:paddingEnd="40dp"
+        android:text="@string/textView10_name"
+        android:textColor="#000000"
+        android:textSize="35sp"
+        tools:ignore="RelativeOverlap" />
+
+    <TextView
+        android:id="@+id/textBox5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textBox4"
+        android:layout_toStartOf="@id/textBox4"
+        android:background="#8F625C"
+        android:paddingStart="40dp"
+        android:paddingEnd="40dp"
+        android:text="@string/textView11_name"
+        android:textColor="#000000"
+        android:textSize="35sp" />
+
+    <TextView
+        android:id="@+id/textBox6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textBox5"
+        android:layout_toStartOf="@id/textBox5"
+        android:background="#946A30"
+        android:paddingStart="40dp"
+        android:paddingEnd="40dp"
+        android:text="@string/textView12_name"
+        android:textColor="#000000"
+        android:textSize="35sp" />
+
+    <TextView
+        android:id="@+id/textBox7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textBox6"
+        android:background="#47DAAE"
+        android:paddingStart="40dp"
+        android:paddingEnd="40dp"
+        android:text="@string/textView13_name"
+        android:textColor="#000000"
+        android:textSize="35sp" />
+
+</RelativeLayout>
